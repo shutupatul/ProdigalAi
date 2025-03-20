@@ -1,0 +1,10 @@
+# Ignore system files
+desktop.ini
+Thumbs.db
+
+# Ignore shortcuts
+*.lnk
+
+# Ignore unwanted folders (optional)
+node_modules/
+.DS_Store
