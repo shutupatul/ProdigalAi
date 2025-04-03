@@ -1,5 +1,6 @@
 
 **# Detailed Analysis Report: Comparison of Bigram and GPT Models**
+
 #Author: Chirag Vashisth
 
 ## 1. Introduction
