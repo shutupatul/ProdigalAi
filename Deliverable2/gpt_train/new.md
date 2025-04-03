@@ -1,5 +1,6 @@
 
 **# Detailed Analysis Report: Comparison of Bigram and GPT Models**
+#Author: Chirag Vashisth
 
 ## 1. Introduction
 This report presents a comparative analysis of two language models: the Bigram Model and the GPT-based model. The analysis focuses on training efficiency, convergence rate, and overall model performance by examining loss values across iterations.
