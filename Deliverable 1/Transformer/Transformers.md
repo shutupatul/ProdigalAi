@@ -13,7 +13,7 @@ A special thanks to Jay Alammar, whose blog helped me understand this paper more
 ### Key Components of a Transformer
 There are mainly two components of a Transformer: Encoders and Decoders.
 
-1. The number of Encoders proposed in the paper is 6 (based on various research studies, but we consider this a hyperparameter for future research work). 
+1. The number of Encoders proposed in the paper is 6 (based on vargitious research studies, but we consider this a hyperparameter for future research work). 
    - An Encoder consists of two components:
      1. **Self-Attention**
      2. **Feed-Forward Neural Network**
