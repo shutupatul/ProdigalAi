@@ -1,0 +1,34 @@
+PS C:\Users\vashc\OneDrive\python\prodigal\vector> python vector.py
+Deleting existing index: demo-index
+Creating index: demo-index
+Example vector: [ 0.10325698  0.03042015  0.0290958  -0.03732286  0.07867624]
+
+✅ Upserted 7 vectors to 'demo-index'
+
+🔍 Enter a custom query (or type 'exit'): what is the heighest peak in the world
+
+Top 3 Results:
+- Mount Everest is the highest mountain. (score: 0.5701)
+- The Eiffel Tower is located in Paris. (score: 0.2140)
+- The Great Wall of China is visible from space. (score: 0.1874)
+
+🔍 Enter a custom query (or type 'exit'): which is famous mountain
+
+Top 3 Results:
+- Mount Everest is the highest mountain. (score: 0.6091)
+- The Great Wall of China is visible from space. (score: 0.2439)
+- Pizza is a popular Italian dish. (score: 0.1983)
+
+🔍 Enter a custom query (or type 'exit'): where is eiffel tower
+
+Top 3 Results:
+- The Eiffel Tower is located in Paris. (score: 0.8885)
+- The capital of France is Paris. (score: 0.2890)
+- The Great Wall of China is visible from space. (score: 0.2268)
+
+🔍 Enter a custom query (or type 'exit'): what is ai
+
+Top 3 Results:
+- Machine learning is a subfield of AI. (score: 0.5978)
+- Neural networks are inspired by the brain. (score: 0.3928)
+- Pizza is a popular Italian dish. (score: 0.0628)
