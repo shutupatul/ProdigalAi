@@ -8,3 +8,6 @@ Thumbs.db
 # Ignore unwanted folders (optional)
 node_modules/
 .DS_Store
+
+#Ignoreing .env file
+.env
