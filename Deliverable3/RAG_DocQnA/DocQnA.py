@@ -18,7 +18,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 load_dotenv()
 mistral_api_key = os.getenv("MISTRAL_API_KEY")
 
-st.title("📄 Mistral Document Q&A")
+st.title("Mistral Document Q&A")
 
 # Mistral Model Setup
 llm = ChatMistralAI(
@@ -49,7 +49,7 @@ def create_vector_store():
         embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
         st.session_state.vectors = FAISS.from_documents(chunks, embeddings)
 
-        st.success("✅ Vector store created!")
+        st.success("Vector store created!")
 
 
 # Input
@@ -70,14 +70,14 @@ if question and "vectors" in st.session_state:
         response = retrieval_chain.invoke({"input": question})
         elapsed = time.process_time() - start
 
-        st.subheader("📌 Answer")
+        st.subheader(" Answer")
         st.write(response['answer'])
 
-        st.subheader("🧠 Top Matching Chunks")
+        st.subheader(" Top Matching Chunks")
         for i, doc in enumerate(response["context"]):
             st.markdown(f"**Chunk {i+1}:**")
             st.write(doc.page_content)
             st.markdown("---")
 
-        st.info(f"⏱️ Process time: {elapsed:.2f} seconds")
+        st.info(f" Process time: {elapsed:.2f} seconds")
         
