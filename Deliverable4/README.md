@@ -69,8 +69,8 @@ docker-compose up --build
 
 - Navigate to: [http://localhost:8080](http://localhost:8080)
 - Login:
-  - **Username**: <your-username>
-  - **Password**: <your-password>
+  - **Username**: admin
+  - **Password**: admin
 
 ### 4. Trigger the DAG
 
