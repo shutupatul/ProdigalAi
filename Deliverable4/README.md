@@ -69,8 +69,9 @@ docker-compose up --build
 
 - Navigate to: [http://localhost:8080](http://localhost:8080)
 - Login:
-  - **Username**: admin
-  - **Password**: admin
+  - **Username**: `admin`
+  - **Password**: `admin`
+  - ⚠️ These are default credentials intended for local development. Change them before deploying to production.
 
 ### 4. Trigger the DAG
 
